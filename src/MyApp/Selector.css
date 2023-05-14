@@ -1,0 +1,27 @@
+.mySelector {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.selector-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90px;
+    border-bottom: 2px solid white;
+}
+.selector-btn p {
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+.selector-btn:hover {
+    transition: 600ms ease-out;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+.active-selector {
+    border-bottom: 2px solid rgb(59, 59, 59) !important;
+}

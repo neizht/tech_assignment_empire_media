@@ -1,0 +1,44 @@
+.myHeader {
+    height: 100px;
+    box-shadow: 0px 0px 1.5px 1.5px rgb(231, 231, 231);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.myHeader .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+.myHeader .subTitle {
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+}
+.price p {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    margin-left: 5px;
+}
+.myHeader span:nth-child(2) {
+    width: fit-content;
+}
+.change {
+    color: rgb(77, 148, 77);
+    font-weight: 600;
+    font-size: 18px;
+}
+.change span:first-child {
+    margin-right: 30px;
+}
+.arrow {
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+.price {
+    display: flex;
+    align-items: center;
+}

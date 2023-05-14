@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    text-align: left;
+}
+thead {
+    background-color: rgb(243, 243, 243);
+}
+tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid rgb(210, 210, 210);
+}
+th {
+    font-weight: 500;
+    width: calc(100% / 6);
+    color: rgb(59, 59, 59);
+}
+td {
+    width: calc(100% / 6);
+}
